@@ -1,0 +1,1031 @@
+*{
+    margin: 0;
+    padding: 0;
+   box-sizing:border-box ;
+}
+
+
+strong{
+    font-weight: bold;
+}
+
+
+em{
+    font-style: italic;
+}
+
+.container{
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+
+Body{ 
+    font-family: ‘Raleway’; 
+    font-weight:300; 
+}
+
+h2, h3, h4{
+    font-family:‘Raleway’ ;
+    font-weight: 700;
+}
+
+
+ /* header */
+ header{
+     
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+
+.nav ul li{
+
+    display: inline-block;
+ 
+}
+.nav ul li a{
+    color:#0065FC;
+    text-decoration: none;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav ul li a:hover{
+
+    color:black;
+    border-top: 2px solid #0065FC;
+    color:black;
+    font-weight: 100;
+}
+
+.logo{
+
+    width: 100px;
+}
+/* general  */
+h2,h3,h4,h5,p, a{
+   
+    font-family: 'Raleway', sans-serif;
+   
+
+}
+ h2{
+    font-weight:700;
+    font-size: 20px;
+
+}
+
+a{
+    color: black;
+}
+
+
+
+p{
+    font-size: 12px;
+}
+
+
+/* section recherche */
+#recherche{
+
+    width: 100%;
+    height: 300px;
+    max-width: auto;
+
+    
+}
+
+#barre{
+    display: flex;
+    border: 1px solid black;
+    width: max-content;
+    border-left: 0;
+    border-right: 0;
+    border-top: none;
+    border-bottom: none;
+
+
+}
+
+.buton{
+    border:0;
+    height: 50px;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    border-bottom:1px solid gainsboro ;
+}
+
+#icone{
+    height: 50px;
+    line-height: 50px;
+    width: 40px;
+    text-align: center;
+    background: gainsboro;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.search{
+    width: 10px;
+    height: 30px;
+    background-color: #0065FC;
+    padding:  6px;
+    text-decoration: none;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#bouton{
+    padding: 10px;
+    height: 50px;
+    background: #0065FC;
+    color:white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+}
+
+#bouton2{
+    display: none;
+}
+
+.filtre{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 300px;
+    max-width: auto;
+   margin-right: 20px;
+}
+
+.filtrage{
+    padding: 20px;
+    position: relative;
+    width: 200px;
+    margin-left: 10px;
+}
+
+
+
+.filtre a{
+    width: 200px;
+    margin-right: 20px;
+    padding: 8px;
+    padding-left: 30px;
+    border: 1px solid gainsboro;
+    text-decoration: none;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.filtrage span{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+
+}
+
+.Afficher{
+
+    position: absolute;
+    top: 1030px;
+    text-decoration: none;
+    color:black;
+    left: 500px;
+    font-weight: 600;
+    
+}
+
+#disponible{
+    display: flex;
+    padding: 30px;
+}
+
+.bouton{
+    height: 30px;
+}
+
+
+/* section hébergement */
+
+.logements{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+
+}
+
+.principale{
+    display: flex;
+    width: 60%;
+    background-color:#F2F2F2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.principale h3{
+    width: 100%;
+}
+
+
+.populaire{
+    width: 38%;
+    background-color:#F2F2F2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    
+}.graph{
+    display: flex;
+    justify-content: space-around;
+}
+
+.graph h4{
+    position: relative;
+    left: -30px;
+}
+
+.hotel{
+    position: relative;
+    background-color: white;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+    transition: all 0.2s;
+    width: 160px;
+    height: 180px;
+    text-decoration: none;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.imag{
+    width: 100%;
+    height: 100px;
+}
+
+.hotel span{
+    position: relative;
+   font-size: 15px;
+   left: 5px;
+   
+}
+
+
+
+.hotel1{
+    background-color: white;
+     -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+      transition: all 0.2s;
+      width: 90%;
+      height:max-content;
+      text-decoration: none;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+     padding: 10px;
+      margin: 8px;
+}
+
+
+
+
+
+
+.popu{
+   width: 130px;
+   border-top-left-radius: 10px;
+   border-bottom-left-radius: 10px;
+   float: left;
+   margin-right: 15px;
+   height: 120px;
+}
+
+
+
+
+
+.shadow{
+    box-shadow: inset gray;
+    box-shadow: 8px 8px 10px 0 rgba(185, 183, 183, 0.5);
+}
+
+
+.fa-star.blue{
+
+    color: #0065FC;
+  
+}
+
+.fa-money-bill-wave{
+   position: absolute;
+    color: #0065FC;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    padding: 10px;
+    line-height: 40px;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+   
+}
+
+.fa-child{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+}
+
+.fa-heart{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+    
+}
+
+.fa-dog{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+
+}
+
+
+
+/* section des activités */
+
+#activite{
+    display: flex;
+    width: 100%;
+    height: max-content;
+    justify-content: space-around;
+    position: relative;
+    left: 0;
+    padding: 0;
+    top: 100px;
+   
+}
+
+.image1{
+    width: 160px;
+    height: 280px;
+}
+
+.image2{
+    width: 160px;
+    height: 90px;
+    margin-bottom: 20px;
+}
+
+.img{
+    height: max-content;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.img p{
+    margin-left: 5px;
+}
+
+.imgdouble{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#act h3{
+    position: absolute;
+    top: -30px;
+     
+ 
+}
+
+.arrondi{
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.act{
+padding: 30px;
+margin-left: 50px;
+position: absolute;
+left: 40px;
+top: 1300px;
+}
+
+
+/* footer */
+
+footer{
+    display: flex;
+    position: relative;
+    background-color:#F2F2F2;
+    width: 100%;
+    height: 150px;
+    top: 200px;
+}
+
+footer div.container{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 30%;
+}
+
+
+@media screen  and (min-width:468px) and (max-width:768px){
+
+   .container{
+      width: 100%;
+      margin-left: 0;
+      margin-right: 0;
+      padding-left: 0;
+      padding-right: 0;
+   }
+
+
+   header{
+     
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px; 
+}
+
+
+.nav1{
+    position: relative;
+    left: 20px;
+   }
+
+   .nav2{
+       position: absolute;
+       left: 400px;
+   }
+
+   .nav3{
+       position: absolute;
+      right: 10px;
+       top: 0;
+   }
+
+   .navigation{
+       position: absolute;
+       top: 70px;  
+   }
+
+.nav ul li{
+
+    display: inline-block;
+ 
+}
+.nav ul li a{
+    color:#0065FC;
+    text-decoration: none;
+    margin: 30px;
+    padding: 20px;
+    padding-top: 35px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.nav ul li a:hover{
+      
+    color:black;
+    border-bottom: 2px solid #0065FC;
+    color:black;
+    font-weight: 100;
+    border-top: none;
+}
+
+.logo{
+    position: absolute;
+    width: 100px;
+    top: 40px;
+
+}
+/* general  */
+h2,h3,h4,h5,p, a{
+   
+    font-family: 'Raleway', sans-serif;
+
+}
+a{
+    color: black;
+}
+
+h3{
+    font-size: 25px;
+   
+}
+
+h4, p{
+    font-size: 12px;
+}
+
+
+/* section recherche */
+#recherche{
+
+    width: 100%;
+    height: 300px;
+    padding: 30px;
+    max-width: auto;
+    position: relative;
+    top: 100px;
+
+    
+}
+
+#barre{
+    display: flex;
+    border: 1px solid black;
+    width: max-content;
+    border-left: 0;
+    border-right: 0;
+    border-top: none;
+    border-bottom: none;
+
+
+}
+
+.buton{
+    border:0;
+    height: 50px;
+    padding: 10px;
+    border-top: 1px solid gainsboro;
+    border-bottom:1px solid gainsboro ;
+}
+
+#icone{
+    height: 50px;
+    line-height: 50px;
+    width: 40px;
+    text-align: center;
+    background: #d4dae4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.search{
+    width: 10px;
+    height: 30px;
+    background-color: #0065FC;
+    padding:  6px;
+    text-decoration: none;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#bouton{
+    padding: 10px;
+    height: 50px;
+    background: #0065FC;
+    color:white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    display: none;
+    
+}
+
+#bouton2{
+    padding: 10px;
+    height: 50px;
+    background: #0065FC;
+    color:white;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border: none;
+    display: block;
+
+}
+
+.filtre{
+    display: flex;
+    padding: 30px;
+    position: absolute;
+    top: 360px;
+    width: 100%;
+   margin-right: 20px;
+   align-items: flex-start;
+   flex-wrap: wrap;
+ 
+}
+
+.filtrage{
+    padding: 20px;
+    position: relative;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+
+
+.filtre a{
+    width: 200px;
+    margin-right: 20px;
+    padding: 8px;
+    padding-left: 30px;
+    border: 1px solid gainsboro;
+    text-decoration: none;
+    color: black;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    height: 40px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.filtrage span{
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    
+}
+
+.romantique{
+    width: 100%;
+}
+
+.filtre h4{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#disponible{
+    display: flex;
+    padding: 30px;
+    position: relative;
+    top: 200px;
+}
+
+.bouton{
+    height: 30px;
+}
+
+#graph{
+    display: flex;
+    justify-content: space-between;
+}
+
+#graph h4{
+    font-size: 25px;
+}
+
+/* section hébergement */
+
+
+.logements{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+    position: relative;
+
+}
+
+.principale{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    flex-direction: column;
+    position: relative;
+    top: 1900px;
+    background-color: white;
+}
+
+#marseille{
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.populaire{
+    width: 100%;
+    background-color:#F2F2F2;
+    position: relative;
+    top: 1900px;
+    border-radius: 0;
+}
+
+
+
+.hotel{
+    position: relative;
+    background-color: white;
+     -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      -ms-transition: all 0.2s;
+     -o-transition: all 0.2s;
+      transition: all 0.2s;
+      width: 100%;
+      height: 250px;
+      text-decoration: none;
+      border-bottom-right-radius: 20px;
+      border-bottom-left-radius: 20px;
+      margin-bottom: 20px;
+     
+
+}
+
+.imag{
+    width: 100%;
+    height: 180px;
+}
+
+.hotel span{
+    position: relative;
+   font-size: 15px;
+   left: 5px;
+   
+}
+
+
+
+.shadow{
+    box-shadow: inset gray;
+    box-shadow: 8px 8px 10px 0 rgba(185, 183, 183, 0.5);
+}
+
+
+
+
+.fa.search{
+    display: none;
+}
+
+
+.fa-star.blue{
+
+    color: #0065FC;
+  
+}
+
+.fa-money-bill-wave{
+   position: absolute;
+    color: #0065FC;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    padding: 10px;
+    line-height: 40px;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+   
+}
+
+.fa-child{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+}
+
+.fa-heart{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 30px;
+    left: 0;
+    top: 0;
+    
+}
+
+.fa-dog{
+    position: absolute;
+    color: #0065FC;
+    padding: 10px;
+    background-color:  rgba(0, 101, 252,0.2);
+    height: 40px;
+    border-radius: 20px;
+    left: 0;
+    top: 0;
+
+}
+
+
+/* aside  */
+
+
+
+/* section des activités */
+
+#activite{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    padding: 30px;
+    justify-content: space-around;
+    position: relative;
+    top: 3000px;
+    flex-direction: column;
+   
+}
+
+.image1{
+    width: 100%;
+    height: 300px;
+}
+
+.image2{
+    width: 100%;
+    height: 300px;
+    margin-bottom: 20px;
+}
+
+.img{
+    height: max-content;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.img p{
+    margin-left: 5px;
+}
+
+.imgdouble{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#act h3{
+    position: relative;
+    
+}
+
+.arrondi{
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+
+.act{
+padding: 30px;
+margin-left: 50px;
+position: absolute;
+left: 40px;
+}
+
+
+/* footer */
+
+footer{
+    position: relative;
+    background-color:#F2F2F2;
+    width: 100%;
+    height: max-content;
+    top: 4100px;
+    padding: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+
+}
+
+footer div.container{
+    display: flex;
+    align-items: top;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+.footer-section {
+    padding-top: 2em;
+    padding-bottom: 2em;
+    width: 30%;
+}
+
+
+}
+
+
+
+
+
+
+   
+
+   
+   
+   
+    
+    
+    
+   
+    
+   
+    
+    
+    
+
+
+  
+
+    
+    
+    
+   
+
+ 
+   
+
+    
+    
+  
+
+
+    
+
+
+  
+
