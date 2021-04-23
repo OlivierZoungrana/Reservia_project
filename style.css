@@ -37,6 +37,12 @@ h2, h3, h4{
 }
 
 
+.img p{
+    font-weight: bold;
+
+}
+
+
  /* header */
  header{
      
@@ -214,12 +220,13 @@ p{
 .Afficher{
 
     position: absolute;
-    top: 1030px;
-    text-decoration: none;
+    top: 950px;
     color:black;
-    left: 500px;
-    font-weight: 600;
-    
+    font-weight: 600; 
+}
+
+.Afficher a{
+    text-decoration: none;
 }
 
 #disponible{
@@ -258,6 +265,9 @@ p{
 }
 
 
+
+
+
 .populaire{
     width: 38%;
     background-color:#F2F2F2;
@@ -285,12 +295,16 @@ p{
      -o-transition: all 0.2s;
     transition: all 0.2s;
     width: 160px;
-    height: 180px;
+    height: 170px;
     text-decoration: none;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
 
+
+.texte{
+    margin-left: 10px;
+}
 .imag{
     width: 100%;
     height: 100px;
@@ -406,23 +420,20 @@ p{
 #activite{
     display: flex;
     width: 100%;
-    height: max-content;
-    justify-content: space-around;
+    justify-content: flex-start;
     position: relative;
-    left: 0;
-    padding: 0;
     top: 100px;
    
 }
 
 .image1{
-    width: 160px;
-    height: 280px;
+    width: 230px;
+    height: 300px;
 }
 
 .image2{
-    width: 160px;
-    height: 90px;
+    width: 230px;
+    height: 110px;
     margin-bottom: 20px;
 }
 
@@ -431,6 +442,7 @@ p{
     border-radius: 20px;
     padding-bottom: 10px;
     margin-bottom: 15px;
+    margin-right: 20px;
 }
 
 .img p{
@@ -799,8 +811,15 @@ h4, p{
       border-bottom-right-radius: 20px;
       border-bottom-left-radius: 20px;
       margin-bottom: 20px;
-     
 
+}
+
+.Afficher{
+    top: 1700px;
+}
+
+.Afficher a{
+    font-size: 20px;
 }
 
 .imag{
